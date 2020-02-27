@@ -1,0 +1,16 @@
+﻿<Window x:Class="PlayMartWpf.KeyboardWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Keyboard_Setting" Height="159" Width="781" Loaded="Window_Loaded" AllowsTransparency="True" WindowStyle="None" Background="WhiteSmoke">
+
+    <Grid>
+        <StackPanel Background="#FFFFF095">
+            <StackPanel Margin="20">
+                <Label Content="바코드 스캐너가 동작하지 않으면 아래에서 바코드를 바꿔주세요."  VerticalAlignment="Top" FontSize="20" FontWeight="Bold" />
+                <ComboBox x:Name="cbList" Height="26"  VerticalAlignment="Top" Margin="0,20,0,0"/>
+                <Button x:Name="btnSelect" Content="선택" Height="24"  VerticalAlignment="Top" Margin="0,10,0,0" Click="btnSelect_Click"/>
+            </StackPanel>
+        </StackPanel>
+
+    </Grid>
+</Window>
